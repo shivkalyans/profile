@@ -1,38 +1,140 @@
-/*
-body{background-color: #89c9b8;}
-.top-container{text-align: center;
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+.top-container {
+  background-color: #EAF6F6;
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  line-height: 2;
+  color: #66BFBF;
+  margin: 0;
+  padding-top: 50px;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #66BFBF;
+  margin-top: 0;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+.top-container {
   position: relative;
-margin-top: 100px;}
-
-.bottom-cloud{position: absolute;
-  left: 400px;
-
-}
-.top-cloud{position: absolute;
-bottom:450px;
-right: 410px;}
-*/
-
-body{background-color: #84a9ac;
-margin:0;
-text-align: center;
-font-family: 'Merriweather', serif;}
-
-h1{font-family: 'Sacramento', cursive;}
-
-h2{font-family: 'Montserrat', sans-serif;}
-
-h3{font-family: 'Montserrat', sans-serif;}
-.top-container{
-position: relative;
-padding-top: 100px;
+  padding-top: 50px;
 }
 
-.top-cloud{
+.top-cloud {
   position: absolute;
-  right: 300px;
-  top:50px;
+  right: 200px;
+  top: 50px;
 }
-.bottom-cloud{position: absolute;
-left: 300px;
-bottom: 300px;}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.profile {
+  margin-bottom: 90px;
+}
+
+.skills {
+  margin-top: 90px;
+}
+
+.profile-pic {
+  width: 15%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.footer-link {
+  color: #11999E;
+}
+
+.btn {
+  color: white;
+  background-color: #11999E;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #2bc4ad;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.computer {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.chillies {
+  width: 25%;
+  margin-left: 30px;
+  float: right;
+}
+
+hr {
+  color: #EAF6F6;
+  width: 5%;
+  border-style: dotted none none;
+  border-width: 6px;
+}
+
+.contact-me {
+  margin-top: 90px;
+  margin-bottom: 75px;
+}
+
+.h2-get-in-touch {
+  margin-bottom: 75px;
+}
+
+.p-contact-me {
+  margin: 50px auto 50px auto;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 20px 0 20px 0;
+}
+
+.footer-link {
+  margin: 20px;
+  color: #11999E;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.copyright {
+  margin-top: 50px;
+  color: #EAF6F6;
+  font-size: 0.75rem;
+}
